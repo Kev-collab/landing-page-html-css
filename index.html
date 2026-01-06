@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kevin Ramirez | Junior Frontend Developer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header__content">
+      <div class="logo">KR</div>
+
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a class="btn btn--small" href="#contact">Hire me</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main>
+    <section class="hero">
+      <div class="container hero__content">
+        <div class="hero__text">
+          <p class="tag">Junior Frontend Developer</p>
+          <h1>Building clean, simple & responsive websites.</h1>
+          <p class="subtitle">
+            I’m Kevin, a developer in training with basic HTML/CSS/Java, GitHub and MySQL.
+            I enjoy learning, solving problems, and improving user experiences.
+          </p>
+
+          <div class="hero__actions">
+            <a class="btn" href="#projects">View projects</a>
+            <a class="btn btn--ghost" href="#contact">Contact</a>
+          </div>
+
+          <div class="skills">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Java</span>
+            <span>MySQL</span>
+            <span>GitHub</span>
+          </div>
+        </div>
+
+        <div class="hero__card">
+          <h3>Quick Info</h3>
+          <ul>
+            <li><strong>Location:</strong> Guatemala</li>
+            <li><strong>Languages:</strong> Spanish / English</li>
+            <li><strong>Focus:</strong> Frontend fundamentals</li>
+          </ul>
+          <p class="note">
+            
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About</h2>
+        <p>
+          I’m transitioning into software development. I bring strong analytical skills,
+          attention to detail, and experience working in structured corporate environments.
+          My current focus is frontend fundamentals and building real projects.
+        </p>
+
+        <div class="grid">
+          <div class="card">
+            <h3>Strengths</h3>
+            <p>Problem-solving, discipline, teamwork, continuous learning.</p>
+          </div>
+          <div class="card">
+            <h3>Tools</h3>
+            <p>VS Code, Git/GitHub (basic), MySQL (basic).</p>
+          </div>
+          <div class="card">
+            <h3>Goal</h3>
+            <p>Get a Junior Frontend role and keep improving every week.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section section--alt">
+      <div class="container">
+        <h2>Projects</h2>
+        <p class="section__subtitle">
+          These will be updated as I build more. (This landing page is project #1.)
+        </p>
+
+        <div class="grid">
+          <div class="card">
+            <h3>Landing Page</h3>
+            <p>Responsive landing page using HTML + CSS.</p>
+            <div class="card__links">
+              <a href="#" aria-disabled="true">GitHub (soon)</a>
+              <a href="#" aria-disabled="true">Live Demo (soon)</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Next Project</h3>
+            <p>Coming soon (To-do app / CRUD).</p>
+            <div class="card__links">
+              <a href="#" aria-disabled="true">GitHub (soon)</a>
+              <a href="#" aria-disabled="true">Live Demo (soon)</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Practice</h3>
+            <p>Small exercises and UI sections.</p>
+            <div class="card__links">
+              <a href="#" aria-disabled="true">GitHub (soon)</a>
+              <a href="#" aria-disabled="true">Notes (soon)</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>If you want to reach out, send an email:</p>
+
+        <div class="contact">
+          <a class="btn" href="mailto:kev.ramirez55@gmail.com">kev.ramirez55@gmail.com</a>
+          <div class="contact__small">
+            <p><strong>LinkedIn:</strong> (add your link)</p>
+            <p><strong>GitHub:</strong> (add your link)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__content">
+      <p>© <span id="year"></span> Kevin Ramirez. All rights reserved.</p>
+      <p class="footer__tiny">Built with HTML + CSS.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
